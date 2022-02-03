@@ -2,6 +2,9 @@
 
 namespace StrategyPattern
 {
+    /// <summary>
+    /// Sine movement algorithm
+    /// </summary>
     public class SineMovementBehavior: IMovementBehavior
     {
         private readonly Transform _transform;
