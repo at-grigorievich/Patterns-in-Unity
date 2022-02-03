@@ -3,6 +3,9 @@ using UnityEngine.Jobs;
 
 namespace StrategyPattern
 {
+    /// <summary>
+    /// Linear movement algorithm
+    /// </summary>
     public class LineMovementBehavior: IMovementBehavior
     {
         private readonly Transform _transform;
